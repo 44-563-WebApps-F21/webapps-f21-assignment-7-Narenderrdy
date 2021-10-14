@@ -49,21 +49,10 @@
             }
 
         }
-        function uniqueHandler() {
-            let stack_values = document.getElementsByClassName('stack');
-            for (let i = 0; i < stack_values.length; i++) {
-                ele1 = stack_values[i].innerHTML;
-                for (let j = i + 1; j < stack_values.length; j++) {
-                    ele2 = stack_values[j].innerHTML;
-                    if (ele1 == ele2) {
-                        stack_values[j].remove();
-                        j--;
-                        i--;
-                    }
-                }
 
-            }
-        }
+
+
+
 
 
     </script>
